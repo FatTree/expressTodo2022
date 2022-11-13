@@ -16,14 +16,14 @@ GET - http://localhost:3030/list/GET_ITEM/{id}
 
 ### CreateItem
 POST - http://localhost:3030/list/CREATE_ITEM
-    /* requestBody */
+    /* requestBody */  
     {
         "content": "Hello World!"
     }
 
 ### UpdateItem
 PUT - http://localhost:3030/list/UPDATE_ITEM/{id}
-    /* requestBody */
+    /* requestBody */  
     {
         "isChecked": true,
         "content": "Happy day"
