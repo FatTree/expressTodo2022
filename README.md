@@ -12,17 +12,17 @@ nodemon index.js
 GET - http://localhost:3030/list/GET_LIST
 
 ### GetTodoItem
-GET - http://localhost:3030/list/GET_ITEM/{id}
+GET - http://localhost:3030/list/GET_ITEM/{id}  
 
 ### CreateItem
-POST - http://localhost:3030/list/CREATE_ITEM
+POST - http://localhost:3030/list/CREATE_ITEM  
     /* requestBody */  
     {
         "content": "Hello World!"
     }
 
 ### UpdateItem
-PUT - http://localhost:3030/list/UPDATE_ITEM/{id}
+PUT - http://localhost:3030/list/UPDATE_ITEM/{id}  
     /* requestBody */  
     {
         "isChecked": true,
@@ -30,4 +30,4 @@ PUT - http://localhost:3030/list/UPDATE_ITEM/{id}
     }
 
 ### DeleteItem
-DELETE - http://localhost:3030/list/DELETE_ITEM/{id}
+DELETE - http://localhost:3030/list/DELETE_ITEM/{id}  
